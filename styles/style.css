@@ -24,9 +24,7 @@ body{
   align-items: center;
 }
 .btn{
-  display: inline-flex;
   padding: 10px 24px;
-  align-items: flex-start;
   gap: 8px;
   color: #FFF;
   font-size: 1rem;
@@ -146,16 +144,44 @@ nav li a{
 /* features style */
 .features-container{
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  gap: 100px;
+}
+.features-content {
+  margin-top: 30px;
+  padding: 20px;
 }
 .features-img img{
 
 }
-
-
-
-
+.features-title{
+  color: #0A0826;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.features-description{
+  color: #6C6C6C;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 80%;
+}
+/* start footer area */
+footer{
+  background: #0A0826;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+}
+footer h4{
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+footer p{
+  color: #D9DBE1;
+  font-size: 1rem;
+  font-weight: 700;
+}
 
 /* responsive media   queries */
 /* mobile device */
